@@ -1,0 +1,227 @@
+# 🔐 Microsoft 365 Administration & Microsoft Entra ID Security Lab
+
+## Overview
+
+This project demonstrates foundational Microsoft 365 administration and Microsoft Entra ID security management using the Microsoft 365 Admin Center and Microsoft Entra Admin Center.
+
+The lab simulates real-world IT administration tasks commonly performed in small and medium-sized business environments, including identity management, security controls, user lifecycle management, and helpdesk operations.
+
+---
+
+## Objectives
+
+- Create and manage user accounts
+- Configure security groups
+- Assign Microsoft 365 licenses
+- Implement Role-Based Access Control (RBAC)
+- Configure Multi-Factor Authentication (MFA)
+- Explore Conditional Access policies
+- Perform common helpdesk tasks
+- Demonstrate identity lifecycle management
+
+---
+
+## Technologies Used
+
+- Microsoft 365 Admin Center
+- Microsoft Entra Admin Center
+- Microsoft Entra ID
+- Microsoft 365
+- Multi-Factor Authentication (MFA)
+- Conditional Access
+- Role-Based Access Control (RBAC)
+
+---
+
+# 👤 User Management
+
+Created and managed user accounts to simulate a real business environment.
+
+### Tasks Completed
+
+- Created users
+- Modified user attributes
+- Blocked and deleted users
+- Managed user lifecycle operations
+
+<div align="center">
+  <img src="Users/peaktechadmin/Pictures/Screenshot1" alt="User Creation" width="900">
+  <br>
+  <em>User account creation within Microsoft 365 Admin Center</em>
+</div>
+
+---
+
+# 👥 Security Groups
+
+Configured security groups to simplify permission management and access control.
+
+### Tasks Completed
+
+- Created security groups
+- Added and removed members
+- Tested role assignment scenarios
+
+<div align="center">
+  <img src="Screenshots/security-groups.png" alt="Security Groups" width="900">
+  <br>
+  <em>Security group configuration</em>
+</div>
+
+---
+
+# 📄 License Management
+
+Assigned Microsoft 365 licenses to users and verified service availability.
+
+### Tasks Completed
+
+- Assigned licenses
+- Removed licenses
+- Reviewed service plans
+
+<div align="center">
+  <img src="Screenshots/license-assignment.png" alt="License Assignment" width="900">
+  <br>
+  <em>Microsoft 365 license management</em>
+</div>
+
+---
+
+# 🛡️ Administrative Roles (RBAC)
+
+Implemented Role-Based Access Control using built-in Microsoft administrative roles.
+
+### Roles Tested
+
+- Global Administrator
+- Helpdesk Administrator
+- User Administrator
+
+### Key Concepts
+
+- Least Privilege
+- Separation of Duties
+- Administrative Security
+
+<div align="center">
+  <img src="Screenshots/rbac-roles.png" alt="RBAC Roles" width="900">
+  <br>
+  <em>Administrative role assignment</em>
+</div>
+
+---
+
+# 🔑 Multi-Factor Authentication (MFA)
+
+Configured and reviewed MFA settings to improve account security.
+
+### Security Benefits
+
+- Additional authentication factor
+- Reduced risk of credential theft
+- Improved account protection
+
+<div align="center">
+  <img src="Screenshots/mfa-configuration.png" alt="MFA Configuration" width="900">
+  <br>
+  <em>Multi-Factor Authentication configuration</em>
+</div>
+
+---
+
+# 🔐 Conditional Access
+
+Explored Conditional Access policies used to control access based on user, device, and risk conditions.
+
+### Concepts Reviewed
+
+- User-based policies
+- Device compliance
+- Risk-based access
+- MFA enforcement
+
+<div align="center">
+  <img src="Screenshots/conditional-access.png" alt="Conditional Access" width="900">
+  <br>
+  <em>Conditional Access policy configuration</em>
+</div>
+
+---
+
+# 🎧 Helpdesk Operations
+
+Performed common support tasks found in a typical IT environment.
+
+### Tasks Completed
+
+- Password resets
+- User account unlocks
+- License troubleshooting
+- Account recovery
+
+<div align="center">
+  <img src="Screenshots/password-reset.png" alt="Password Reset" width="900">
+  <br>
+  <em>Helpdesk password reset workflow</em>
+</div>
+
+---
+
+# 🏗️ Environment Architecture
+
+```text
+Users
+   │
+   ▼
+Microsoft Entra ID
+   │
+   ├── MFA
+   ├── Conditional Access
+   ├── Security Groups
+   └── RBAC
+            │
+            ▼
+Microsoft 365 Services
+   ├── SharePoint
+   ├── OneDrive
+   ├── Exchange Online
+   └── Teams
+```
+
+---
+
+# 📚 Key Skills Demonstrated
+
+- Identity & Access Management (IAM)
+- Microsoft 365 Administration
+- Microsoft Entra ID Administration
+- Multi-Factor Authentication (MFA)
+- Conditional Access
+- Role-Based Access Control (RBAC)
+- User Lifecycle Management
+- Security Group Management
+- Helpdesk Operations
+- Cloud Administration
+
+---
+
+# 🎯 Key Learnings
+
+- Identity management is a core responsibility of IT administrators.
+- Security groups simplify administration at scale.
+- MFA significantly improves account security.
+- Conditional Access enables adaptive security controls.
+- RBAC enforces least-privilege access.
+- Licensing directly impacts service availability.
+
+---
+
+# 🚀 Future Improvements
+
+- Implement production-ready Conditional Access policies
+- Automate user provisioning with PowerShell
+- Create reporting and auditing scripts
+- Expand SharePoint administration scenarios
+- Implement Privileged Identity Management (PIM)
+- Integrate Microsoft Defender security monitoring
