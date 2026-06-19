@@ -40,12 +40,12 @@ Created and managed user accounts to simulate a real business environment.
 ### Tasks Completed
 
 - Created users
-- Modified user attributes
+- Modified user attributes  
 - Blocked and deleted users
 - Managed user lifecycle operations
 
 <div align="center">
-  <img src="Users/peaktechadmin/Pictures/Screenshot1" alt="User Creation" width="900">
+  <img src="Screenshot1.png" alt="User Creation" width="900">
   <br>
   <em>User account creation within Microsoft 365 Admin Center</em>
 </div>
