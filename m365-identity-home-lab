@@ -1,0 +1,75 @@
+# Microsoft 365 Identity & User Management Home Lab
+
+## Overview
+This project demonstrates foundational Microsoft 365 administration skills using the Microsoft 365 Admin Center. It simulates real-world IT tasks such as user management, group creation, license assignment, role-based access control, and basic helpdesk operations.
+
+This lab was completed using the Microsoft 365 Admin Center, which is used by IT administrators in real organizations to manage users, identities, and services.
+
+---
+
+## Objectives
+- Create and manage user accounts
+- Create and configure security groups
+- Assign and manage Microsoft 365 licenses
+- Assign administrative roles
+- Perform basic helpdesk tasks (password reset, user management)
+- Demonstrate identity lifecycle management
+
+---
+
+## Tools Used
+- Microsoft 365 Admin Center
+
+---
+
+## Lab Summary
+
+In this lab, I performed the following tasks:
+
+- Created multiple test users (Admin, Helpdesk, Standard User)
+- Configured security groups for role-based access control
+- Assigned Microsoft 365 licenses to users
+- Assigned administrative roles (Global Admin, Helpdesk Admin)
+- Simulated helpdesk tasks such as password resets and account management
+- Practiced user lifecycle operations (create, modify, block, delete users)
+
+---
+
+## Key Skills Demonstrated
+
+- Identity and Access Management (IAM)
+- Role-Based Access Control (RBAC)
+- SaaS administration (Microsoft 365)
+- Helpdesk troubleshooting workflows
+- User lifecycle management
+- Security group management
+
+---
+
+## Key Learnings
+
+- Groups simplify large-scale user management in enterprise environments
+- Licenses control access to Microsoft 365 services
+- Admin roles must follow the principle of least privilege
+- Helpdesk workflows are essential for account recovery and support
+- Identity management is a core function in all IT environments
+
+---
+
+## Screenshots
+
+Screenshots are located in the `/Screenshots` folder and include:
+- User creation
+- Group configuration
+- License assignment
+- Admin role assignment
+- Password reset process
+
+---
+
+## Future Improvements
+
+- Add MFA enforcement policies
+- Implement Conditional Access policies
+- Expand into Microsoft Entra ID integration
+- Automate user provisioning using PowerShell
